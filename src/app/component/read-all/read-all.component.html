@@ -1,0 +1,17 @@
+<button mat-stroked-button color="primary">
+    Novo Carro
+</button>
+
+<div class = "container" *ngFor="let item of list">
+    <mat-card class = "simple-card">
+        <p>{{item.id}}</p>
+        <p>{{item.marca}}</p>
+        <p>{{item.tipo}}</p>
+
+        <div class = "actions">
+            <button clsss = "edit-carro" mat-stroked-button color="primary">
+                Editar
+            </button>
+        </div>
+    </mat-card>
+</div>
