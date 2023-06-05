@@ -11,13 +11,12 @@ import {Carro} from 'src/app/models/carro';
 export class ReadAllComponent 
 {
   list : Carro[] = 
-  [
-    {id: '1', marca: 'Fiat', tipo: 'Duo'},
-    {id: '2', marca: 'Ford', tipo: 'Sem Festa'},
-    {id: '3', marca: 'Reanult', tipo: 'Vegano'}
-  ];
+  [];
 
   constructor() { }
 
   ngOnInit(): void {}
+
+  findAll(): void
+  {}
 }
